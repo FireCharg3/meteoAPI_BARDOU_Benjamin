@@ -1,19 +1,45 @@
-
+header img {
+  display: flex;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
 
 body {
-  background-color: pink;
+  background: linear-gradient(45deg, #ff4165 0%, #ffbd37 100%);
+  font-family: "Roboto";
+  color: white;
+}
+body div.un {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  top: 25%;
+  left: 202px;
+  position: absolute;
+}
+body div.un ul {
+  top: 48px;
+  position: relative;
+  width: 400px;
+  font-size: 16px;
+}
+body div.un ul li {
+  padding-bottom: 12px;
+  border-bottom: white 1px solid;
+  margin-bottom: 12px;
+  display: flex;
+  width: 400px;
+}
+body div.un ul li div.info {
+  display: flex;
+  position: relative;
+  float: right;
 }
 
-footer {
-  background-color: red;
-}
-
-p {
-  color: green;
-}
-
-p {
-  color: blue;
+.yes {
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */
