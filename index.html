@@ -1,4 +1,4 @@
-<html lang="fr">
+ <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="author" content="Bardou Benjamin">
@@ -9,18 +9,39 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
 	</head>
 	<header>
-		<img src="www/img/Search.svg">
+		<input type="search"onfocus="this.value=''" value="Search"> <button>Search</button><img src="www/img/loupe.svg">
 	</header>
     <body>
+		<div class="oui">
 		<div class="un">
 			<h1 class="yes">Oslo</h1>
 			<p class="yes">Today 15 September</p>
 			<ul>
-				<li><p class="title">Wind(gust)</p> <div class="info"><p>17km/h</p><img src="www/img/Name=Wind.svg"></div> </li>
-				<li><p class="title"></p>Sunrise</p> <div class="info"><p>06:45</p><img src="www/img/Name=Sunset.svg"></div> </li>
-				<li><p class="title"></p>Sunset</p> <div class="info"><p>19:37</p><img src="www/img/Name=Sunrise.svg"></div> </li>
-				<li><p class="title"></p>Precipitation </p><div class="info"><p>2.5mm</p><img src="www/img/Name=Precipitation.svg"></div> </li>
+				<li><p class="title">Wind(gust)</p> <div class="info1"><p>17km/h</p><img src="www/img/Name=Wind.svg"></div> </li>
+				<li><p class="title"></p>Sunrise</p> <div class="info2"><p>06:45</p><img src="www/img/Name=Sunset.svg"></div> </li>
+				<li><p class="title"></p>Sunset</p> <div class="info3"><p>19:37</p><img src="www/img/Name=Sunrise.svg"></div> </li>
+				<li><p class="title"></p>Precipitation </p><div class="info4"><p>2.5mm</p><img src="www/img/Name=Precipitation.svg"></div> </li>
 			</ul>
 		</div>
+		<div class="deux">
+				<p>28°</p>
+				<img src="www/img/partly_cloudy.svg">
 
+
+		</div>
+	</div>
+
+		<div class="jour">
+			<ul>
+				<li><button>Today</button></li>
+				<li><p>Thursday</p></li>
+				<li><p>Friday</p></li>
+				<li><p>Saturday</p></li>
+				<li><p>Sunday</p></li>
+				<li><p>Monday</p></li>
+				<li><p>Tuesday</p></li>
+			</ul>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="www/js/script.js"></script>
     </body>
